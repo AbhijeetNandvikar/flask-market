@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-195bc99093a-221fbdf2821a00cc": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "market.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/abhijeetnandvikar/Documents/Personal Projects/backend-projects/flask-market/instance/market.db",
+				"url": "jdbc:sqlite:/Users/abhijeetnandvikar/Documents/Personal Projects/backend-projects/flask-market/instance/market.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
